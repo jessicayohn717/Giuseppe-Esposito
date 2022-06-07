@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Colors 
+512E5F Purple, gradient darkest (headings, bold, links)
+D7BDE2 Purple, gradient lightest
+39323C Purple, dark (main text)
+7C6D83 Purple, mid (hover links)
+DAD6DF Grey, light (border, hr)
+*/
+
+.ECWedding22 {
+  margin: auto;
+  border: 1px solid #DAD6DF;
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px 36px;
+  font-size: 13px;
+  line-height: 1.5;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  color: #39323C; /*#212F3D;*/
+  background-color: #fff; /*ghostwhite F8F8FF, lavenderblush: FFF0F5*/
+}
+
+.ECWedding22 b {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  color: #512E5F;
+}
+
+hr.ECWedding22HR {
+  border: 1px solid #DAD6DF;
+}
+
+.ECWedding22Title {
+  background-image: linear-gradient(to right, #512E5F, #D7BDE2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 42px;
+  font-family: 'Charis SIL', serif;
+  font-weight: 700;
+  text-align: left;
+  color: transparent;
+}
+
+.ECWedding22HeaderLinks {
+  position: relative;
+  top: -4px;
+  background-image: linear-gradient(to right, #512E5F, #D7BDE2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 12px;
+}
+
+.ECWedding22Headdings {
+  font-size: 22px;
+  font-weight: 700;
+  color: #512E5F;
+}
+
+.ECWedding22Tags {
+  text-align: center;
+  font-size: 12px;
+}
+
+.ECWedding22 a:link, .ECWedding22 a:visited {
+  font-weight: 600;
+  text-decoration: underline;
+  color: #414141;
+}
+
+.ECWedding22 a:hover, .ECWedding22 a:active {
+  text-decoration: underline #7C6D83 double;
+  color: #7C6D83;
+}
+
+.ECWedding22HeaderLinks a:link, .ECWedding22HeaderLinks a:visited { 
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.ECWedding22HeaderLinks a:hover, .ECWedding22HeaderLinks a:active {
+  color: transparent;
+}
+
+.ECWedding22Tags a:link, .ECWedding22Tags a:visited 
+  font-weight: 500;
+  text-decoration: none;
+}
